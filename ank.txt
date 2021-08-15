@@ -1,0 +1,42 @@
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git config --global user.name "ankush"
+
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git config --global user.email "kanadeankp@gmail.com"
+
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git init
+Initialized empty Git repository in F:/assignment_proj/employee_info/.git/
+
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        db.sqlite3
+        employee/
+        employee_info/
+        manage.py
+        venv/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git add --a
+
+ git commit -m "Initial commit"
+ 
+ Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git remote add origin https://github.com/kanadeanku23/assignment.git
+
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (master)
+$ git branch -M main
+
+Suraj@DESKTOP-92JQAOO MINGW64 /f/assignment_proj/employee_info (main)
+$ git push -u origin main
+remote: Permission to kanadeanku23/assignment.git denied to surajborekar.
+fatal: unable to access 'https://github.com/kanadeanku23/assignment.git/': The requested URL returned error: 403
